@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Inchoo_Thumbnail>
+            <version>1.0.0.2</version>
+        </Inchoo_Thumbnail>
+    </modules>
+    <global>
+        <blocks>
+            <adminhtml>
+                <rewrite>
+                    <catalog_category_tab_product>Inchoo_Thumbnail_Block_Adminhtml_Catalog_Category_Tab_Product</catalog_category_tab_product>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+    </global>
+</config>
